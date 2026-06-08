@@ -1,0 +1,78 @@
+buildsmartacademy/
+│
+├── index.php
+├── config/
+│   ├── database.php
+│   ├── config.php
+│   └── functions.php
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       └── (logo, placeholders)
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── navbar.php
+│   └── session.php
+│
+├── auth/
+│   ├── register.php
+│   ├── login.php
+│   ├── verify-otp.php
+│   ├── logout.php
+│   └── reset-password.php
+│
+├── dashboard/
+│   ├── index.php
+│   ├── profile.php
+│   ├── edit-profile.php
+│   └── my-certificates.php
+│
+├── courses/
+│   ├── index.php (list all courses)
+│   ├── course-details.php?id=X
+│   ├── enroll.php
+│   ├── unit-player.php?course_id=X&unit_id=Y
+│   └── final-exam.php?course_id=X
+│
+├── exams/
+│   ├── take-unit-test.php
+│   ├── submit-unit-test.php
+│   ├── take-final-exam.php
+│   └── submit-final-exam.php
+│
+├── admin/
+│   ├── index.php
+│   ├── manage-courses.php
+│   ├── add-course.php
+│   ├── edit-course.php
+│   ├── manage-questions.php (unit & final)
+│   ├── manage-users.php
+│   ├── create-sub-admin.php
+│   ├── view-payments.php
+│   └── reports.php
+│
+├── forum/
+│   ├── index.php
+│   ├── topic.php
+│   └── post-reply.php
+│
+├── blog/
+│   ├── index.php
+│   └── single.php
+│
+├── events/
+│   ├── index.php
+│   └── event-details.php
+│
+├── contact.php
+├── certificate-verify.php
+└── uploads/
+    ├── profile_pictures/
+    ├── course_materials/
+    └── certificates/
